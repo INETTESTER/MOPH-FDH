@@ -6,8 +6,8 @@
 ##########################################################################
                      API="send_trackupload" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1-UCU4MWrvoCT8bxTUULV6_ZGYc4HzBm8FLEERaRR_v8/edit?gid=303761516#gid=303761516" 
-                     id="1"                 #เปลี่ยน id ทุกครั้งที่ยิง
-                     user="3000";            #จำนวนผู้ใช้งาน
+                     id="4"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     user="1500";            #จำนวนผู้ใช้งาน
                      duration="300";         #วินาที
                      scenario="3"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
                      cid="1"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)

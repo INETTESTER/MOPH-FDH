@@ -12,16 +12,16 @@ import { trackupload } from '../api/trackupload.js';
 
 export default function () {    //เรียกใช้ API ใน export default function
   //response = get_token()
-  //response = send()
-  //response = trackupload()
-
-
-
-
+  response = send()
   error_check(response);
   if (!response || response.error_code || (response.status !== 200 && response.status !== 201 && response.status !== 204)) {
     console.log(response.body);
   }
+  // response = trackupload()
+  // error_check(response);
+  // if (!response || response.error_code || (response.status !== 200 && response.status !== 201 && response.status !== 204)) {
+  //   console.log(response.body);
+  // }
   sleep(1)
 }
 
