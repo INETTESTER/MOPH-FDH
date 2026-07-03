@@ -5,7 +5,7 @@ export function trackupload() {
   const url = domain + '/FMU/ecimp/v1/trackupload';
 
   const payload = `{
-    "upload_uid": "fd296dc4-7204-4f69-81b2-a88ac1dd21e3-230"
+    "upload_uid": "370ee53b-b9f4-47ac-a892-601e31f4f7da-13"
   }`;
 
   const params = {

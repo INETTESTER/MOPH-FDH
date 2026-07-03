@@ -1,3 +1,4 @@
 export const cookie = "TS01e88bc2=013bd252cbd5a6a5e0266b7bc86b4ec1a75639011421a0264ab7d10194863a2ea02c710e184614292660ab9353032ce19eb6592d53"
-export const token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZGhwcm92aWRlciIsImV4cCI6MTc4MzEwMTQzNCwiaWF0IjoxNzgzMDk3ODM0fQ.N9Ds05sT0bgzCf7P7MnuKxnwNHBmNJc8gPJzpslUR121x9vDw9BcpbBwzkew_qve_XO2qTfCwliSyb3pTuj2jQ"
-export const domain = "https://nhsoapi.nhso.go.th"
+export const token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZGhwcm92aWRlciIsImV4cCI6MTc4MzEwMjE0MiwiaWF0IjoxNzgzMDk4NTQyfQ.QW7Ig_TJAov7mopKybpVwvWh4FQcRXSOqknuefxkg6_YYfjWMDNf4yNkcentPRJh7n-zY2modEKTs9b6POPZ0w"
+//export const domain = "https://nhsoapi.nhso.go.th"
+export const domain = "https://nhsoapi2.nhso.go.th"

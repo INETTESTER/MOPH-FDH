@@ -15,16 +15,16 @@ export default function () {    //เรียกใช้ API ใน export def
   response = send()
   error_check(response);
   if (!response || response.error_code || (response.status !== 200 && response.status !== 201 && response.status !== 204)) {
-    console.log("Send Fail : " + response.status);
+    console.log("Send Fail : " + response.body);
   }
 
   // delay send --> trackupload
-  sleep(30)
+  //sleep(30)
 
   response = trackupload()
   error_check(response);
   if (!response || response.error_code || (response.status !== 200 && response.status !== 201 && response.status !== 204)) {
-    console.log("Trackupload Fail : " + response.status);
+    console.log("Trackupload Fail : " + response.body);
   }
 
 
