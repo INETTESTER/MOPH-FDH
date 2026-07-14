@@ -154,10 +154,12 @@ else if (scenariox == 3) {
         executor: 'constant-arrival-rate',
         // rate: user,
         // timeUnit: durationx+'s',
-        rate: vusx,
+        //rate: vusx,
+        rate: 50,
         timeUnit: '1s',
         preAllocatedVUs: user,
-        duration: durationx + 's', // ระบุระยะเวลาที่ต้องการให้ทดสอบ
+        //duration: durationx + 's', // ระบุระยะเวลาที่ต้องการให้ทดสอบ
+        duration: '14h',
         gracefulStop: '120s',
       },
     },
